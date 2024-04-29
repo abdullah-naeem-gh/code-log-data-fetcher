@@ -1,8 +1,8 @@
 # Code Log Data Fetcher
 
-![Version](https://vsmarketplacebadge.apphb.com/version/your-publisher.code-log-data-fetcher.svg)
-![Installs](https://vsmarketplacebadge.apphb.com/installs/your-publisher.code-log-data-fetcher.svg)
-![Rating](https://vsmarketplacebadge.apphb.com/rating/your-publisher.code-log-data-fetcher.svg)
+![Version](https://vsmarketplacebadge.apphb.com/version/your-publisher.code-log-data-fetcher.png)
+![Installs](https://vsmarketplacebadge.apphb.com/installs/your-publisher.code-log-data-fetcher.png)
+![Rating](https://vsmarketplacebadge.apphb.com/rating/your-publisher.code-log-data-fetcher.png)
 
 Collect and store VSCode usage data into a MySQL database. This extension is particularly useful for tracking usage patterns in Java projects.
 
