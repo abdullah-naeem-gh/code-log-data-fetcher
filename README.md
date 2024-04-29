@@ -1,71 +1,40 @@
-# code-log-data-fetcher README
+# Code Log Data Fetcher
 
-This is the README for your extension "code-log-data-fetcher". After writing up a brief description, we recommend including the following sections.
+![Version](https://vsmarketplacebadge.apphb.com/version/your-publisher.code-log-data-fetcher.svg)
+![Installs](https://vsmarketplacebadge.apphb.com/installs/your-publisher.code-log-data-fetcher.svg)
+![Rating](https://vsmarketplacebadge.apphb.com/rating/your-publisher.code-log-data-fetcher.svg)
+
+Collect and store VSCode usage data into a MySQL database. This extension is particularly useful for tracking usage patterns in Java projects.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Collects workspace information, language usage, and debugging data.
+- Tracks the duration of coding sessions.
+- Stores data in a MySQL database for analysis and insights.
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation
 
-\!\[feature X\]\(images/feature-x.png\)
+You can install the Code Log Data Fetcher extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=your-publisher.code-log-data-fetcher).
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Usage
 
-## Requirements
+1. Install the extension.
+2. Open VSCode and activate the extension.
+3. Execute the "Collect VSCode Data" command from the command palette (`Ctrl+Shift+P` or `Cmd+Shift+P`) to start collecting data.
+4. Data will be stored in a MySQL database for analysis.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Configuration
 
-## Extension Settings
+Before using the extension, make sure to configure the MySQL connection settings in the `package.json` file.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## Feedback
 
-For example:
+If you encounter any issues or have suggestions for improvements, feel free to [open an issue](https://github.com/your-github-username/code-log-data-fetcher/issues) on GitHub.
 
-This extension contributes the following settings:
+## License
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+This extension is licensed under the [MIT License](LICENSE).
 
 ---
 
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Developed by [Abdullah Naeem](https://github.com/abdullah-naeem-gh)
